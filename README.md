@@ -13,10 +13,10 @@ Assignment 1 for CMPE 283 Course
   - Incorporated Makefile and the source code from assi1.c into a directory that was just established.
   - intel-cascade was used to locate bit numbers characterizing the proc, exit, and entry based controls' capabilities.
   - From there, four additional instances of the capability info structs were made, as follows:
-        - primary_proc_based
-        - secondary_proc_based
-        - exit_based
-        - entry_based
+       - primary_proc_based
+       - secondary_proc_based
+       - exit_based
+       - entry_based
 
   - These examples include the bit number and a description of the characteristic that bit stands for.
   - Report capabilities function was modified to call it four more times with the proper parameters, displaying proc, exit, and entry-based capabilities.
